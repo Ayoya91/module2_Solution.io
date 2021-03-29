@@ -71,7 +71,7 @@ p{
   p{
  width:35%;
 display:block;
-clear:left;  } 
+  } 
  }
 
 /* Mobile view*/
@@ -79,5 +79,5 @@ clear:left;  }
   p {
     width:100%;
     display:block;
-    clear:both;}
+ }
   }
