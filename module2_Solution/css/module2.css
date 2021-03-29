@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+* {font-family: Comic Sans MS, Comic Sans, cursive,sans-serif;
+  
+}
+
+
+h1{
+  text-align:center;
+}
+
+#chicken{
+  background-color:#fdaeb7;
+  width:8%;
+  height:10%;
+  padding:0;
+  left:25%;
+  position:relative;
+     
+}
+#beef{
+  background-color:#ea4a5a;
+  width:8%;
+  height:10%;
+  padding:0;
+  left:25%;
+  position:relative;
+ 
+   
+
+  }
+
+#suchi{
+  background-color:#ffd33d;
+  width:8%;
+  height:10%;
+  padding:0;
+  left:25%;
+  position:relative;
+ 
+    }
+div{
+  margin:0;
+  padding:0;
+  
+}
+
+p{
+  
+  background-color:lightgrey;
+  text-align:left;
+  width:25%;
+  height:25%;
+  border:2px solid black;
+  padding:40px;
+  margin:auto;
+  float: left;
+  overflow:auto;
+}
+
+/* Desktop view*/
+@media (min-width: 992px) {
+  p{width:25%;}
+}
+
+/* Tablet view*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+  p{
+ width:35%;
+display:block;
+clear:left;  } 
+ }
+
+/* Mobile view*/
+@media (max-width: 767px){
+  p {
+    width:100%;
+    display:block;
+    clear:both;}
+  }
